@@ -1,0 +1,31 @@
+2024-03-27 21:52:20.140 [info] 
+
+
+
+
+2024-03-27 21:52:20.140 [info] Extension host agent started.
+2024-03-27 21:52:20.140 [info] Started initializing default profile extensions in extensions installation folder. file:///users/Preethi/.vscode-server/extensions
+2024-03-27 21:52:20.203 [info] Completed initializing default profile extensions in extensions installation folder. file:///users/Preethi/.vscode-server/extensions
+2024-03-27 21:52:20.226 [info] [<unknown>][2c1fe08e][ManagementConnection] New connection established.
+2024-03-27 21:52:20.228 [info] [<unknown>][c2e4111a][ExtensionHostConnection] New connection established.
+2024-03-27 21:52:20.316 [info] [<unknown>][c2e4111a][ExtensionHostConnection] <5438> Launched Extension Host Process.
+2024-03-27 21:53:15.407 [info] [<unknown>][e373f622][ExtensionHostConnection] New connection established.
+2024-03-27 21:53:15.409 [info] [<unknown>][cba0167c][ManagementConnection] New connection established.
+2024-03-27 21:53:15.417 [info] [<unknown>][e373f622][ExtensionHostConnection] <6283> Launched Extension Host Process.
+2024-03-27 21:57:20.103 [info] New EH opened, aborting shutdown
+2024-03-27 21:57:20.106 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/server/node/server.main.js:187:6090)
+    at process.emit (node:events:514:28)
+2024-03-27 21:58:15.664 [info] [<unknown>][c2e4111a][ExtensionHostConnection] <5438> Extension Host Process exited with code: 0, signal: null.
+2024-03-27 22:42:33.285 [error] AggregateError
+    at internalConnectMultiple (node:net:1082:18)
+    at afterConnectMultiple (node:net:1533:5)
+2024-03-27 22:42:33.289 [error] AggregateError
+    at internalConnectMultiple (node:net:1082:18)
+    at afterConnectMultiple (node:net:1533:5)
+2024-03-27 22:42:33.499 [error] AggregateError
+    at internalConnectMultiple (node:net:1082:18)
+    at afterConnectMultiple (node:net:1533:5)
+2024-03-28 05:24:11.683 [info] [<unknown>][e373f622][ExtensionHostConnection] <6283> Extension Host Process exited with code: 0, signal: null.
+2024-03-28 05:24:11.685 [info] Last EH closed, waiting before shutting down
+2024-03-28 05:29:11.686 [info] Last EH closed, shutting down

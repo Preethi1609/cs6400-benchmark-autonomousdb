@@ -1,0 +1,323 @@
+2024-03-28 17:18:23.817 [info] Log level: Info
+2024-03-28 17:18:23.817 [info] Validating found git in: "git"
+2024-03-28 17:18:23.817 [info] Using git "2.25.1" from "git"
+2024-03-28 17:18:23.817 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-28 17:18:23.817 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-28 17:18:23.817 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-28 17:18:23.817 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-28 17:18:23.823 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-28 17:18:23.823 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-28 17:18:23.830 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-28 17:18:23.830 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-28 17:18:23.836 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-28 17:18:23.836 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-28 17:18:23.843 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-28 17:18:23.850 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-03-28 17:18:23.862 [info] Open repository: /users/Preethi/benchbase
+2024-03-28 17:18:23.878 [info] > git rev-parse --show-toplevel [6ms]
+2024-03-28 17:18:23.878 [info] > git config --get commit.template [10ms]
+2024-03-28 17:18:23.889 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2024-03-28 17:18:23.892 [info] Open repository: /users/Preethi/noisepage
+2024-03-28 17:18:23.901 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-03-28 17:18:23.906 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:18:23.906 [info] > git config --get commit.template [6ms]
+2024-03-28 17:18:23.938 [info] > git rev-parse refs/remotes/origin/main [33ms]
+2024-03-28 17:18:23.946 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2024-03-28 17:18:23.951 [warning] ENOENT: no such file or directory, open '/users/Preethi/noisepage/.git/refs/remotes/origin/master'
+2024-03-28 17:18:23.952 [info] > git status -z -uall [9ms]
+2024-03-28 17:18:23.964 [info] > git rev-parse refs/remotes/origin/master [13ms]
+2024-03-28 17:18:23.968 [info] > git config --get commit.template [4ms]
+2024-03-28 17:18:23.975 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-03-28 17:18:23.979 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:18:23.980 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-28 17:18:23.996 [info] > git status -z -uall [10ms]
+2024-03-28 17:18:24.123 [info] > git status -z -uall [156ms]
+2024-03-28 17:18:24.139 [info] > git config --get commit.template [1ms]
+2024-03-28 17:18:24.143 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-03-28 17:18:24.147 [warning] ENOENT: no such file or directory, open '/users/Preethi/noisepage/.git/refs/remotes/origin/master'
+2024-03-28 17:18:24.149 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2024-03-28 17:18:24.306 [info] > git status -z -uall [153ms]
+2024-03-28 17:18:24.468 [info] > git check-ignore -v -z --stdin [9ms]
+2024-03-28 17:18:24.469 [info] > git check-ignore -v -z --stdin [4ms]
+2024-03-28 17:18:24.808 [warning] Failed to get repository realpath for: "/users/Preethi/noisepage/script/testing/junit/noisepage-testfiles". Error: ENOENT: no such file or directory, realpath '/users/Preethi/noisepage/script/testing/junit/noisepage-testfiles'
+2024-03-28 17:18:25.835 [info] > git rev-parse --show-toplevel [4ms]
+2024-03-28 17:18:25.835 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-28 17:18:31.734 [info] > git check-ignore -v -z --stdin [3ms]
+2024-03-28 17:18:33.157 [info] > git check-ignore -v -z --stdin [3ms]
+2024-03-28 17:18:33.900 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-28 17:18:35.011 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-28 17:18:38.831 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-28 17:18:41.078 [info] > git check-ignore -v -z --stdin [3ms]
+2024-03-28 17:18:42.958 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-28 17:18:46.510 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-28 17:18:47.630 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-28 17:18:48.735 [info] > git show --textconv :target/benchbase-postgres/config/noisepage/sample_tpcc_config.xml [8ms]
+2024-03-28 17:18:48.736 [info] > git ls-files --stage -- /users/Preethi/benchbase/target/benchbase-postgres/config/noisepage/sample_tpcc_config.xml [2ms]
+2024-03-28 17:20:20.768 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-28 17:20:24.580 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-28 17:20:24.580 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-28 17:20:25.109 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-28 17:20:25.109 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-28 17:22:17.752 [info] > git show --textconv :mvnw [9ms]
+2024-03-28 17:22:17.753 [info] > git ls-files --stage -- /users/Preethi/benchbase/mvnw [2ms]
+2024-03-28 17:22:17.759 [info] > git cat-file -s 5643201c7d82260bc6d216ec542abf7e6986d182 [2ms]
+2024-03-28 17:23:37.684 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-28 17:23:38.853 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-28 17:23:38.853 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-28 17:29:40.998 [info] > git config --get commit.template [7ms]
+2024-03-28 17:29:41.000 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-03-28 17:29:41.004 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:29:41.006 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-28 17:29:41.017 [info] > git status -z -uall [8ms]
+2024-03-28 17:34:37.568 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-28 17:34:40.250 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-28 17:34:41.440 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-28 17:34:51.671 [info] > git show --textconv :target/benchbase-postgres/results/tpcc_2024-03-28_15-27-15.results.csv [6ms]
+2024-03-28 17:34:51.672 [info] > git ls-files --stage -- /users/Preethi/benchbase/target/benchbase-postgres/results/tpcc_2024-03-28_15-27-15.results.csv [2ms]
+2024-03-28 17:35:12.667 [info] > git show --textconv :target/benchbase-postgres/results/tpcc_2024-03-28_15-27-15.results.Delivery.csv [7ms]
+2024-03-28 17:35:12.667 [info] > git ls-files --stage -- /users/Preethi/benchbase/target/benchbase-postgres/results/tpcc_2024-03-28_15-27-15.results.Delivery.csv [1ms]
+2024-03-28 17:35:13.480 [info] > git show --textconv :target/benchbase-postgres/results/tpcc_2024-03-28_15-27-15.params.json [6ms]
+2024-03-28 17:35:13.482 [info] > git ls-files --stage -- /users/Preethi/benchbase/target/benchbase-postgres/results/tpcc_2024-03-28_15-27-15.params.json [2ms]
+2024-03-28 17:35:14.074 [info] > git show --textconv :target/benchbase-postgres/results/tpcc_2024-03-28_15-27-15.metrics.json [7ms]
+2024-03-28 17:35:14.076 [info] > git ls-files --stage -- /users/Preethi/benchbase/target/benchbase-postgres/results/tpcc_2024-03-28_15-27-15.metrics.json [2ms]
+2024-03-28 17:35:14.576 [info] > git show --textconv :target/benchbase-postgres/results/tpcc_2024-03-28_15-27-15.config.xml [7ms]
+2024-03-28 17:35:14.576 [info] > git ls-files --stage -- /users/Preethi/benchbase/target/benchbase-postgres/results/tpcc_2024-03-28_15-27-15.config.xml [1ms]
+2024-03-28 17:35:57.672 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-28 17:35:57.672 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-28 17:38:24.946 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-28 17:38:25.395 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-03-28 17:38:25.396 [info] > git config --get commit.template [15ms]
+2024-03-28 17:38:25.406 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:38:25.407 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-28 17:38:25.431 [info] > git status -z -uall [7ms]
+2024-03-28 17:38:30.451 [info] > git config --get commit.template [6ms]
+2024-03-28 17:38:30.452 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:38:30.457 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:38:30.458 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-28 17:38:30.470 [info] > git status -z -uall [9ms]
+2024-03-28 17:38:35.489 [info] > git config --get commit.template [6ms]
+2024-03-28 17:38:35.491 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:38:35.495 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:38:35.497 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-28 17:38:35.514 [info] > git status -z -uall [11ms]
+2024-03-28 17:38:50.658 [info] > git config --get commit.template [5ms]
+2024-03-28 17:38:50.660 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:38:50.664 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:38:50.666 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-28 17:38:50.681 [info] > git status -z -uall [10ms]
+2024-03-28 17:39:06.255 [info] > git config --get commit.template [6ms]
+2024-03-28 17:39:06.257 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-03-28 17:39:06.261 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:39:06.263 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-28 17:39:06.281 [info] > git status -z -uall [12ms]
+2024-03-28 17:39:11.299 [info] > git config --get commit.template [7ms]
+2024-03-28 17:39:11.301 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:39:11.306 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:39:11.307 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-28 17:39:11.323 [info] > git status -z -uall [11ms]
+2024-03-28 17:39:16.342 [info] > git config --get commit.template [6ms]
+2024-03-28 17:39:16.343 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:39:16.348 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:39:16.349 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-28 17:39:16.364 [info] > git status -z -uall [10ms]
+2024-03-28 17:39:21.382 [info] > git config --get commit.template [6ms]
+2024-03-28 17:39:21.384 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-03-28 17:39:21.388 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:39:21.390 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-28 17:39:21.404 [info] > git status -z -uall [9ms]
+2024-03-28 17:39:26.422 [info] > git config --get commit.template [6ms]
+2024-03-28 17:39:26.423 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:39:26.428 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:39:26.430 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-28 17:39:26.443 [info] > git status -z -uall [8ms]
+2024-03-28 17:39:31.463 [info] > git config --get commit.template [8ms]
+2024-03-28 17:39:31.464 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:39:31.469 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:39:31.471 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-28 17:39:31.487 [info] > git status -z -uall [10ms]
+2024-03-28 17:39:36.506 [info] > git config --get commit.template [6ms]
+2024-03-28 17:39:36.508 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:39:36.513 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:39:36.514 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-28 17:39:36.526 [info] > git status -z -uall [8ms]
+2024-03-28 17:39:54.167 [info] > git config --get commit.template [6ms]
+2024-03-28 17:39:54.169 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:39:54.173 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:39:54.175 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-28 17:39:54.185 [info] > git status -z -uall [6ms]
+2024-03-28 17:41:56.851 [info] > git config --get commit.template [6ms]
+2024-03-28 17:41:56.853 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:41:56.858 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:41:56.859 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-28 17:41:56.875 [info] > git status -z -uall [10ms]
+2024-03-28 17:41:57.701 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-28 17:42:01.890 [info] > git config --get commit.template [0ms]
+2024-03-28 17:42:01.898 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-03-28 17:42:01.904 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:42:01.906 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-28 17:42:01.919 [info] > git status -z -uall [8ms]
+2024-03-28 17:42:06.935 [info] > git config --get commit.template [6ms]
+2024-03-28 17:42:06.937 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:42:06.940 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:42:06.941 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-28 17:42:06.953 [info] > git status -z -uall [8ms]
+2024-03-28 17:42:11.969 [info] > git config --get commit.template [5ms]
+2024-03-28 17:42:11.970 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-03-28 17:42:11.975 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:42:11.976 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-28 17:42:11.988 [info] > git status -z -uall [8ms]
+2024-03-28 17:42:17.006 [info] > git config --get commit.template [7ms]
+2024-03-28 17:42:17.007 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:42:17.012 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:42:17.013 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-28 17:42:17.026 [info] > git status -z -uall [8ms]
+2024-03-28 17:42:22.043 [info] > git config --get commit.template [5ms]
+2024-03-28 17:42:22.044 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:42:22.049 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:42:22.050 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-28 17:42:22.066 [info] > git status -z -uall [11ms]
+2024-03-28 17:42:27.085 [info] > git config --get commit.template [7ms]
+2024-03-28 17:42:27.086 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:42:27.089 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:42:27.091 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-28 17:42:27.100 [info] > git status -z -uall [5ms]
+2024-03-28 17:42:29.456 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-28 17:42:32.117 [info] > git config --get commit.template [7ms]
+2024-03-28 17:42:32.119 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:42:32.123 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:42:32.125 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-28 17:42:32.138 [info] > git status -z -uall [9ms]
+2024-03-28 17:44:13.445 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-28 17:44:13.445 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-28 17:48:14.860 [info] > git config --get commit.template [7ms]
+2024-03-28 17:48:14.860 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:48:14.873 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:48:14.874 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-28 17:48:14.891 [info] > git status -z -uall [4ms]
+2024-03-28 17:48:19.910 [info] > git config --get commit.template [6ms]
+2024-03-28 17:48:19.912 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-03-28 17:48:19.916 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:48:19.917 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-28 17:48:19.931 [info] > git status -z -uall [9ms]
+2024-03-28 17:48:24.945 [info] > git config --get commit.template [2ms]
+2024-03-28 17:48:24.951 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:48:24.954 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:48:24.955 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-28 17:48:24.965 [info] > git status -z -uall [7ms]
+2024-03-28 17:48:39.837 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-28 17:48:39.970 [info] > git config --get commit.template [9ms]
+2024-03-28 17:48:39.971 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:48:39.978 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:48:39.979 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-28 17:48:39.994 [info] > git status -z -uall [9ms]
+2024-03-28 17:48:43.307 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-28 17:48:44.218 [info] > git check-ignore -v -z --stdin [3ms]
+2024-03-28 17:48:46.458 [info] > git show --textconv :config/postgres/sample_tpcc_config.xml [7ms]
+2024-03-28 17:48:46.460 [info] > git ls-files --stage -- /users/Preethi/benchbase/config/postgres/sample_tpcc_config.xml [2ms]
+2024-03-28 17:48:46.466 [info] > git cat-file -s f486e745248b83ffdd82cd3fb9c19cf5d376b9e8 [2ms]
+2024-03-28 17:48:52.121 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-28 17:48:52.820 [info] > git config --get commit.template [6ms]
+2024-03-28 17:48:52.822 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:48:52.826 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:48:52.828 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-28 17:48:52.843 [info] > git status -z -uall [11ms]
+2024-03-28 17:48:53.978 [info] > git show --textconv :config/noisepage/sample_tatp_config.xml [7ms]
+2024-03-28 17:48:53.979 [info] > git ls-files --stage -- /users/Preethi/benchbase/config/noisepage/sample_tatp_config.xml [2ms]
+2024-03-28 17:48:53.986 [info] > git cat-file -s 9df893b4ed66abe108b4e23a92eacafb077e1087 [2ms]
+2024-03-28 17:48:54.848 [info] > git show --textconv :config/noisepage/sample_tpcc_config.xml [8ms]
+2024-03-28 17:48:54.849 [info] > git ls-files --stage -- /users/Preethi/benchbase/config/noisepage/sample_tpcc_config.xml [2ms]
+2024-03-28 17:48:54.855 [info] > git cat-file -s 593be291e87268170b8f55b5befcab5bc5bea835 [2ms]
+2024-03-28 17:48:57.862 [info] > git config --get commit.template [7ms]
+2024-03-28 17:48:57.864 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-03-28 17:48:57.867 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:48:57.869 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-28 17:48:57.882 [info] > git status -z -uall [8ms]
+2024-03-28 17:49:02.903 [info] > git config --get commit.template [8ms]
+2024-03-28 17:49:02.904 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:49:02.908 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:49:02.910 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-28 17:49:02.924 [info] > git status -z -uall [10ms]
+2024-03-28 17:49:07.942 [info] > git config --get commit.template [7ms]
+2024-03-28 17:49:07.944 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:49:07.948 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:49:07.949 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-28 17:49:07.960 [info] > git status -z -uall [7ms]
+2024-03-28 17:49:12.978 [info] > git config --get commit.template [6ms]
+2024-03-28 17:49:12.980 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-03-28 17:49:12.985 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:49:12.986 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-28 17:49:12.998 [info] > git status -z -uall [8ms]
+2024-03-28 17:49:18.015 [info] > git config --get commit.template [6ms]
+2024-03-28 17:49:18.016 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:49:18.021 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:49:18.022 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-28 17:49:18.039 [info] > git status -z -uall [12ms]
+2024-03-28 17:49:23.056 [info] > git config --get commit.template [6ms]
+2024-03-28 17:49:23.057 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:49:23.062 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:49:23.064 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-28 17:49:23.081 [info] > git status -z -uall [11ms]
+2024-03-28 17:49:28.098 [info] > git config --get commit.template [6ms]
+2024-03-28 17:49:28.100 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:49:28.104 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:49:28.106 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-28 17:49:28.119 [info] > git status -z -uall [8ms]
+2024-03-28 17:49:33.133 [info] > git config --get commit.template [2ms]
+2024-03-28 17:49:33.141 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-03-28 17:49:33.145 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:49:33.147 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-28 17:49:33.163 [info] > git status -z -uall [11ms]
+2024-03-28 17:49:47.487 [info] > git config --get commit.template [6ms]
+2024-03-28 17:49:47.489 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:49:47.494 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:49:47.495 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-28 17:49:47.506 [info] > git status -z -uall [7ms]
+2024-03-28 17:50:04.575 [info] > git config --get commit.template [6ms]
+2024-03-28 17:50:04.576 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:50:04.581 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:50:04.583 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-28 17:50:04.596 [info] > git status -z -uall [9ms]
+2024-03-28 17:50:21.702 [info] > git config --get commit.template [6ms]
+2024-03-28 17:50:21.704 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:50:21.709 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:50:21.711 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-28 17:50:21.721 [info] > git status -z -uall [5ms]
+2024-03-28 17:50:26.741 [info] > git config --get commit.template [7ms]
+2024-03-28 17:50:26.743 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:50:26.747 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:50:26.749 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-28 17:50:26.760 [info] > git status -z -uall [8ms]
+2024-03-28 17:52:13.888 [info] > git config --get commit.template [6ms]
+2024-03-28 17:52:13.889 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:52:13.894 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:52:13.896 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-28 17:52:13.908 [info] > git status -z -uall [8ms]
+2024-03-28 17:52:18.926 [info] > git config --get commit.template [6ms]
+2024-03-28 17:52:18.928 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-03-28 17:52:18.932 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:52:18.934 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-28 17:52:18.948 [info] > git status -z -uall [10ms]
+2024-03-28 17:52:23.967 [info] > git config --get commit.template [7ms]
+2024-03-28 17:52:23.968 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-28 17:52:23.972 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:52:23.974 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-28 17:52:23.989 [info] > git status -z -uall [10ms]
+2024-03-28 17:52:29.007 [info] > git config --get commit.template [6ms]
+2024-03-28 17:52:29.009 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-03-28 17:52:29.013 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:52:29.014 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-28 17:52:29.028 [info] > git status -z -uall [8ms]
+2024-03-28 17:53:23.517 [info] > git show --textconv :config/noisepage/sample_tpcc_config.xml [8ms]
+2024-03-28 17:53:23.518 [info] > git ls-files --stage -- /users/Preethi/benchbase/config/noisepage/sample_tpcc_config.xml [2ms]
+2024-03-28 17:53:23.523 [info] > git cat-file -s 593be291e87268170b8f55b5befcab5bc5bea835 [2ms]
+2024-03-28 17:53:24.758 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-28 17:53:24.758 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-28 17:54:34.670 [info] > git config --get commit.template [7ms]
+2024-03-28 17:54:34.672 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-03-28 17:54:34.676 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-28 17:54:34.678 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-28 17:54:34.690 [info] > git status -z -uall [8ms]
+2024-03-28 17:54:39.230 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-28 17:54:40.176 [info] > git check-ignore -v -z --stdin [3ms]
+2024-03-28 17:54:41.683 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-28 17:54:41.683 [info] fatal: not a git repository (or any of the parent directories): .git

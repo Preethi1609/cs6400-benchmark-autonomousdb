@@ -1,0 +1,20 @@
+2024-03-28 17:17:45.557 [info] 
+
+
+
+
+2024-03-28 17:17:45.568 [info] Extension host agent started.
+2024-03-28 17:17:45.922 [info] [<unknown>][e7b23749][ManagementConnection] New connection established.
+2024-03-28 17:17:45.924 [info] [<unknown>][a2ad5d34][ExtensionHostConnection] New connection established.
+2024-03-28 17:17:46.006 [info] [<unknown>][a2ad5d34][ExtensionHostConnection] <31260> Launched Extension Host Process.
+2024-03-28 17:18:22.045 [info] [<unknown>][0971e79f][ExtensionHostConnection] New connection established.
+2024-03-28 17:18:22.054 [info] [<unknown>][0971e79f][ExtensionHostConnection] <31427> Launched Extension Host Process.
+2024-03-28 17:18:22.055 [info] [<unknown>][cdb4800c][ManagementConnection] New connection established.
+2024-03-28 17:22:45.572 [info] New EH opened, aborting shutdown
+2024-03-28 17:22:45.574 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/server/node/server.main.js:187:6090)
+    at process.emit (node:events:514:28)
+2024-03-28 17:23:22.126 [info] [<unknown>][a2ad5d34][ExtensionHostConnection] <31260> Extension Host Process exited with code: 0, signal: null.
+2024-03-28 22:09:48.212 [info] [<unknown>][0971e79f][ExtensionHostConnection] <31427> Extension Host Process exited with code: 0, signal: null.
+2024-03-28 22:09:48.214 [info] Last EH closed, waiting before shutting down
+2024-03-28 22:14:48.215 [info] Last EH closed, shutting down

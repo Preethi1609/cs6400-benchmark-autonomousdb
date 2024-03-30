@@ -1,0 +1,6 @@
+Listening on 127.0.0.1:46763
+[2024-03-30 12:57:13] info Disposed of connection to running server.
+looking for token 0d86b793-0b0d-4dfb-8e03-4e48d9281d66, got Some("0d86b793-0b0d-4dfb-8e03-4e48d9281d66")
+[2024-03-30 12:57:14] info Checking /users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/log.txt and /users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/pid.txt for a running server...
+[2024-03-30 12:57:14] info Starting server...
+[2024-03-30 12:57:14] info Server started

@@ -1,0 +1,126 @@
+2024-03-27 21:53:16.340 [info] Extension host with pid 6283 started
+2024-03-27 21:53:16.375 [info] Lock '/users/Preethi/.vscode-server/data/User/workspaceStorage/067c1182adc50b513e63d27ccac8f5d7/vscode.lock': Lock acquired.
+2024-03-27 21:53:16.445 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-03-27 21:53:16.507 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-27 21:53:16.715 [info] Eager extensions activated
+2024-03-27 21:53:16.715 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-27 21:53:16.716 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-27 21:53:17.786 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-03-27 21:53:19.272 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-03-27 21:53:19.273 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-03-27 21:53:19.274 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-27 21:59:51.085 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-03-27 22:40:10.180 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-03-27 23:06:30.021 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-03-27 23:06:32.753 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-03-27 23:06:33.304 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-03-28 05:24:11.612 [info] Extension host terminating: renderer disconnected for too long (1)
+2024-03-28 05:24:11.615 [info] Lock '/users/Preethi/.vscode-server/data/User/workspaceStorage/067c1182adc50b513e63d27ccac8f5d7/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-03-28 05:24:11.659 [error] Canceled: Canceled
+	at new $ (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:140:45885)
+	at s.U (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:147:5556)
+	at z.<computed>.T.charCodeAt.z.<computed> (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:147:3007)
+	at u.g (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:150:184300)
+	at u.executeCommand (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:150:183738)
+	at f.registerCommand.description (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:150:183062)
+	at u.h (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:150:184839)
+	at u.g (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:150:183831)
+	at u.executeCommand (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:150:183738)
+	at Object.executeCommand (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:160:21654)
+	at p.O [as value] (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/main.js:2:943479)
+	at n.y (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/main.js:2:962791)
+	at /users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/main.js:2:968825
+	at Array.forEach (<anonymous>)
+	at f.dispose (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/main.js:2:968811)
+	at l.<anonymous> (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:148:3704)
+	at l.dispose (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:148:3801)
+	at l.<anonymous> (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/main.js:2:945736)
+	at l.dispose (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:148:3801)
+	at o (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at p.cb (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:156:9882)
+	at /users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:156:7816
+	at Array.map (<anonymous>)
+	at p.Y (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:156:7803)
+	at p.terminate (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:156:8076)
+	at o.terminate (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:173:9949)
+	at O.a (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:173:6679)
+	at O.h (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:97:20588)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7) setContext undefined
+2024-03-28 05:24:11.660 [error] Canceled: Canceled
+	at new $ (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:140:45885)
+	at s.U (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:147:5556)
+	at z.<computed>.T.charCodeAt.z.<computed> (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:147:3007)
+	at u.g (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:150:184300)
+	at u.executeCommand (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:150:183738)
+	at f.registerCommand.description (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:150:183062)
+	at u.h (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:150:184839)
+	at u.g (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:150:183831)
+	at u.executeCommand (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:150:183738)
+	at Object.executeCommand (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:160:21654)
+	at p.O [as value] (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/main.js:2:943479)
+	at n.y (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/main.js:2:962791)
+	at /users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/main.js:2:968825
+	at Array.forEach (<anonymous>)
+	at f.dispose (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/main.js:2:968811)
+	at l.<anonymous> (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:148:3704)
+	at l.dispose (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:148:3801)
+	at l.<anonymous> (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/main.js:2:945736)
+	at l.dispose (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:148:3801)
+	at o (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at p.cb (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:156:9882)
+	at /users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:156:7816
+	at Array.map (<anonymous>)
+	at p.Y (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:156:7803)
+	at p.terminate (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:156:8076)
+	at o.terminate (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:173:9949)
+	at O.a (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:173:6679)
+	at O.h (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:97:20588)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7) setContext undefined
+2024-03-28 05:24:11.661 [error] Canceled: Canceled
+	at new $ (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:140:45885)
+	at s.U (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:147:5556)
+	at z.<computed>.T.charCodeAt.z.<computed> (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:147:3007)
+	at u.g (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:150:184300)
+	at u.executeCommand (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:150:183738)
+	at f.registerCommand.description (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:150:183062)
+	at u.h (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:150:184839)
+	at u.g (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:150:183831)
+	at u.executeCommand (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:150:183738)
+	at Object.executeCommand (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:160:21654)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/github/dist/extension.js:2:325214)
+	at /users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/github/dist/extension.js:2:326173
+	at p.value (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/main.js:2:1050811)
+	at n.y (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/main.js:2:962791)
+	at /users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/main.js:2:968825
+	at Array.forEach (<anonymous>)
+	at f.dispose (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/main.js:2:968811)
+	at l.<anonymous> (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:148:3704)
+	at l.dispose (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:148:3801)
+	at l.<anonymous> (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/main.js:2:945736)
+	at l.dispose (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:148:3801)
+	at o (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at p.cb (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:156:9882)
+	at /users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:156:7816
+	at Array.map (<anonymous>)
+	at p.Y (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:156:7803)
+	at p.terminate (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:156:8076)
+	at o.terminate (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:173:9949)
+	at O.a (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:173:6679)
+	at O.h (/users/Preethi/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:97:20588)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7) setContext undefined
+2024-03-28 05:24:11.669 [info] Extension host with pid 6283 exiting with code 0

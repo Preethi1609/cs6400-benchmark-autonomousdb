@@ -1,0 +1,86 @@
+2024-03-30 12:57:16.308 [info] Log level: Info
+2024-03-30 12:57:16.308 [info] Validating found git in: "git"
+2024-03-30 12:57:16.308 [info] Using git "2.25.1" from "git"
+2024-03-30 12:57:16.308 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-30 12:57:16.308 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-30 12:57:16.309 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-30 12:57:16.313 [info] > git rev-parse --git-dir --git-common-dir [0ms]
+2024-03-30 12:57:16.324 [info] Open repository: /users/Preethi/noisepage
+2024-03-30 12:57:16.335 [info] > git config --get commit.template [6ms]
+2024-03-30 12:57:16.341 [info] > git rev-parse --show-toplevel [7ms]
+2024-03-30 12:57:16.341 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-30 12:57:16.342 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-03-30 12:57:16.349 [warning] ENOENT: no such file or directory, open '/users/Preethi/noisepage/.git/refs/remotes/origin/master'
+2024-03-30 12:57:16.350 [info] > git rev-parse --show-toplevel [4ms]
+2024-03-30 12:57:16.350 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-30 12:57:16.350 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-03-30 12:57:16.359 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-30 12:57:16.359 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-30 12:57:16.391 [info] > git rev-parse --show-toplevel [28ms]
+2024-03-30 12:57:16.391 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-30 12:57:16.399 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-30 12:57:16.405 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-03-30 12:57:16.409 [info] Open repository: /users/Preethi/benchbase
+2024-03-30 12:57:16.445 [info] > git config --get commit.template [26ms]
+2024-03-30 12:57:16.447 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [24ms]
+2024-03-30 12:57:16.453 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-30 12:57:16.455 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-30 12:57:16.468 [info] > git status -z -uall [9ms]
+2024-03-30 12:57:16.485 [info] > git config --get commit.template [4ms]
+2024-03-30 12:57:16.486 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-03-30 12:57:16.490 [warning] ENOENT: no such file or directory, open '/users/Preethi/benchbase/.git/refs/remotes/origin/main'
+2024-03-30 12:57:16.492 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-30 12:57:16.509 [info] > git status -z -uall [12ms]
+2024-03-30 12:57:16.514 [info] > git status -z -uall [160ms]
+2024-03-30 12:57:16.530 [info] > git config --get commit.template [6ms]
+2024-03-30 12:57:16.532 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-03-30 12:57:16.536 [warning] ENOENT: no such file or directory, open '/users/Preethi/noisepage/.git/refs/remotes/origin/master'
+2024-03-30 12:57:16.537 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-03-30 12:57:16.709 [info] > git status -z -uall [167ms]
+2024-03-30 12:57:16.928 [info] > git show --textconv :build/build.ninja [6ms]
+2024-03-30 12:57:16.930 [info] > git ls-files --stage -- /users/Preethi/noisepage/build/build.ninja [2ms]
+2024-03-30 12:57:16.959 [info] > git check-ignore -v -z --stdin [9ms]
+2024-03-30 12:57:16.960 [info] > git check-ignore -v -z --stdin [3ms]
+2024-03-30 12:57:17.212 [warning] Failed to get repository realpath for: "/users/Preethi/noisepage/script/testing/junit/noisepage-testfiles". Error: ENOENT: no such file or directory, realpath '/users/Preethi/noisepage/script/testing/junit/noisepage-testfiles'
+2024-03-30 12:59:20.806 [info] > git check-ignore -v -z --stdin [4ms]
+2024-03-30 12:59:27.408 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-30 12:59:27.408 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-30 13:00:04.669 [info] > git check-ignore -v -z --stdin [3ms]
+2024-03-30 13:00:12.170 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-30 13:00:12.176 [info] > git rev-parse --git-dir --git-common-dir [0ms]
+2024-03-30 13:00:12.180 [info] Open repository: /users/Preethi
+2024-03-30 13:00:12.184 [info] No remotes found in the git config file.
+2024-03-30 13:00:12.188 [info] > git config --get commit.template [4ms]
+2024-03-30 13:00:12.188 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-03-30 13:00:12.188 [warning] No such branch: master.
+2024-03-30 13:00:12.218 [info] > git status -z -uall [26ms]
+2024-03-30 13:00:12.582 [info] > git config --get commit.template [302ms]
+2024-03-30 13:00:12.584 [info] No remotes found in the git config file.
+2024-03-30 13:00:12.593 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-30 13:00:12.593 [warning] No such branch: master.
+2024-03-30 13:00:12.623 [info] > git status -z -uall [24ms]
+2024-03-30 13:00:13.133 [info] > git show --textconv :benchbase_start_up.sh [26ms]
+2024-03-30 13:00:13.133 [info] > git check-ignore -v -z --stdin [13ms]
+2024-03-30 13:00:13.134 [info] > git check-ignore -v -z --stdin [7ms]
+2024-03-30 13:00:13.134 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-30 13:00:13.135 [info] > git ls-files --stage -- /users/Preethi/benchbase_start_up.sh [21ms]
+2024-03-30 13:00:14.716 [info] No remotes found in the git config file.
+2024-03-30 13:00:14.717 [info] > git config --get commit.template [8ms]
+2024-03-30 13:00:14.718 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-30 13:00:14.718 [warning] No such branch: master.
+2024-03-30 13:00:14.749 [info] > git status -z -uall [25ms]
+2024-03-30 13:00:19.800 [info] No remotes found in the git config file.
+2024-03-30 13:00:19.801 [info] > git config --get commit.template [8ms]
+2024-03-30 13:00:19.802 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-30 13:00:19.802 [warning] No such branch: master.
+2024-03-30 13:00:19.829 [info] > git status -z -uall [21ms]
+2024-03-30 13:00:24.889 [info] No remotes found in the git config file.
+2024-03-30 13:00:24.890 [info] > git config --get commit.template [7ms]
+2024-03-30 13:00:24.890 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-03-30 13:00:24.891 [warning] No such branch: master.
+2024-03-30 13:00:24.916 [info] > git status -z -uall [21ms]
+2024-03-30 13:00:29.971 [info] No remotes found in the git config file.
+2024-03-30 13:00:29.971 [info] > git config --get commit.template [10ms]
+2024-03-30 13:00:29.972 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-30 13:00:29.972 [warning] No such branch: master.
+2024-03-30 13:00:30.002 [info] > git status -z -uall [24ms]
